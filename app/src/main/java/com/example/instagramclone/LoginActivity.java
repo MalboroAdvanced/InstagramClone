@@ -73,7 +73,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                                     "Logged in successfully", Toast.LENGTH_SHORT,FancyToast.SUCCESS,
                                             true).show();
 
-                                    progressDialog.dismiss();
+
                                     transitionToSocialMediaActivity();
 
 
@@ -83,7 +83,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                                                     + e.getMessage(),
                                             Toast.LENGTH_SHORT,FancyToast.ERROR,true).show();
 
+
                                 }
+                                progressDialog.dismiss();
                             }
 
                         });
