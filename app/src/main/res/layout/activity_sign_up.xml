@@ -9,13 +9,13 @@
 
     <ImageView
         android:id="@+id/imgShare"
-        android:layout_width="110dp"
-        android:layout_height="86dp"
+        android:layout_width="182dp"
+        android:layout_height="103dp"
         android:layout_marginStart="104dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@drawable/signup" />
 
     <EditText
         android:id="@+id/edtEnterEmail"
