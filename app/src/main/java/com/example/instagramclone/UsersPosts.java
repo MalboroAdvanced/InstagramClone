@@ -99,7 +99,7 @@ public class UsersPosts extends AppCompatActivity {
 
                 }else{
 
-                    FancyToast.makeText(UsersPosts.this,"Thisuser doesn't have any posts",
+                    FancyToast.makeText(UsersPosts.this,"This user doesn't have any posts",
                             Toast.LENGTH_SHORT,FancyToast.INFO,true).show();
                     finish();
                 }

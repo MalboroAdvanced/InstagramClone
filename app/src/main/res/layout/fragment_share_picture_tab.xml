@@ -19,9 +19,11 @@
             <ImageView
                 android:id="@+id/imgShare"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/androidicon"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="400dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sp" />
 
             <EditText
                 android:id="@+id/edtDescription"
@@ -39,7 +41,9 @@
                 android:id="@+id/btnShareImage"
                 android:layout_width="315dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="@color/colorPrimaryDark"
+                android:gravity="center"
                 android:text="share image"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
